@@ -1,0 +1,5 @@
+[run]
+preRunScript = "python generate_data.py"
+
+[theme]
+primaryColor = "#00b050"
