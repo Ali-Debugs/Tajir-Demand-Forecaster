@@ -22,7 +22,7 @@ This tool gives store owners **7-day ahead demand forecasts** so they can order 
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/tajir-demand-forecaster
+git clone https://github.com/Ali-Debugs/tajir-demand-forecaster
 cd tajir-demand-forecaster
 
 # 2. Install dependencies
@@ -51,8 +51,7 @@ tajir-demand-forecaster/
 │   ├── sales.csv        # 9,050 daily sales records (generated)
 │   ├── stores.csv       # 5 kiryana stores in Lahore
 │   └── products.csv     # 10 common products with prices & restock thresholds
-└── .streamlit/
-    └── config.toml      # Theme config (Tajir green)
+
 ```
 
 ---
@@ -136,22 +135,6 @@ Simulated field interviews with 5 kiryana store owners across Lahore (Gulberg, M
 
 ---
 
-## 🌐 Deploy to Streamlit Cloud (Free)
-
-1. Push this repo to GitHub
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) → **New app**
-3. Select your repo, set **Main file:** `app.py`
-4. Add this to `.streamlit/config.toml` so data generates on deploy:
-
-```toml
-[run]
-preRunScript = "python generate_data.py"
-```
-
-5. Click **Deploy** — live in ~2 minutes
-
----
-
 ## 🔮 Potential Improvements
 
 - Integrate real Tajir transaction data via API
@@ -164,7 +147,7 @@ preRunScript = "python generate_data.py"
 
 ## 👤 About
 
-Built as a portfolio project for Tajir's Data Science Internship (2026).
+Built as a portfolio project Inspired by Tajir App (2026).
 
 Tajir's mission: *make a significant portion of Pakistan's economy radically more efficient.*
 
