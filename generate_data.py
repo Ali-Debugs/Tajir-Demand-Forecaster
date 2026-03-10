@@ -73,7 +73,7 @@ def generate_sales():
     df = pd.DataFrame(records)
     return df
 
-if __name__ == "__main__":
+def main():
     os.makedirs("data", exist_ok=True)
 
     sales_df = generate_sales()
@@ -85,5 +85,8 @@ if __name__ == "__main__":
     products_df = pd.DataFrame(PRODUCTS)
     products_df.to_csv("data/products.csv", index=False)
 
-    print(f"✅ Generated {len(sales_df):,} sales records")
-    print(f"✅ Saved to data/sales.csv, data/stores.csv, data/products.csv")
+    print(f"Generated {len(sales_df):,} sales records")
+
+
+if __name__ == "__main__":
+    main()

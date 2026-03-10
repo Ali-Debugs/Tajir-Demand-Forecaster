@@ -47,6 +47,12 @@ st.markdown("""
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
+import os
+if not os.path.exists("data/sales.csv"):
+    import generate_data
+    generate_data.main()
+
+
 @st.cache_data
 def load_data():
     """Read the three CSVs produced by generate_data.py — cached after first load."""
