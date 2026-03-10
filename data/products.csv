@@ -1,0 +1,11 @@
+product_id,name,category,unit_price,restock_threshold
+1,Olpers Milk 1L,Dairy,85,20
+2,Surf Excel 500g,Detergent,320,15
+3,Lays Classic (Large),Snacks,60,30
+4,Tapal Danedar 200g,Beverages,175,10
+5,Nestle Mineral Water,Beverages,50,40
+6,Shan Biryani Masala,Spices,95,12
+7,Peak Freans Sooper,Biscuits,45,25
+8,Sunsilk Shampoo 200ml,Personal,220,8
+9,Colgate 100ml,Personal,130,10
+10,Cocomo Biscuits,Biscuits,20,50
